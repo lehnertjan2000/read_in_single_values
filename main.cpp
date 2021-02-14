@@ -1,5 +1,4 @@
 #include <iostream>
-#include <exception>
 #include <string>
 
 // print some error message
@@ -55,6 +54,7 @@ int get_int(int low, int high)
 
 int main(){
     int i = 0;
-    i = get_int(1, 10);
+    i = get_int(0, 10);
+    std::cout << "The number was " << i << "\n";
     return 0;
 }
